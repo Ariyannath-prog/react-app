@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Analytics } from "@vercel/analytics/react"
 import { use, useState } from 'react'; {/* this is an important lib that is use for changing the states */}
 
 function TableCount(){
@@ -176,7 +177,7 @@ function App() {
       <br></br>
 
       <Main /> {/* the main content is here! */}
-
+      <Analytics />
     </div>
   );
 }
