@@ -169,7 +169,7 @@ function App() {
   return (
     <div>
       <div className='header'>
-        <h1>SITE NAME</h1>
+        <h1>Order Menu</h1>
       </div>
 
       <br></br> 
